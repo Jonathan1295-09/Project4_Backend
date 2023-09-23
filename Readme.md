@@ -21,6 +21,10 @@ Users will be able to track there personal best max weight lift at they hit at t
 | /personalbest/:id | PUT    | Update an existing Pb     |
 | /personalbest/:id | GET    | Display new pb card       |
 
+## ERD (ENTITY RELATIONSHIP DIAGRAM)
+
+```mermaid
+erDiagram
 
 USER ||--O{ HOME : indexPage
 
