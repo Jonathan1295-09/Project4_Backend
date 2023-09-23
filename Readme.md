@@ -2,7 +2,7 @@
 
 - **Project Name:** Personal Best
 - **Project By:** Jonathan Casasola
-- [**Link To  Frontend GITHUB**](https://github.com/Jonathan1295-09/Project_3Frontend](https://github.com/Jonathan1295-09/Project4_Frontend))
+- [**Link To  Frontend GITHUB**](https://github.com/Jonathan1295-09/Project4_Frontend.git)
 - [**LINK TO DEPLOYED WEBSITE**]
 - **List of technologies used** Python, django, neon, javascript
 - [**Link to Trello**]
