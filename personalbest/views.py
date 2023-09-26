@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from .models import personalBest
+from rest_framework import viewsets, permissions
+from .serializers import PersonalBestSerializer
 
-# Create your views here.
+class PersonalBestSerializer(viewsets.ModelViewSet):
+    queryset = personalBest.objects.all()
+    serializer_class = PersonalBestSerializer
+    permission_classes = (permissions.AllowAny)
