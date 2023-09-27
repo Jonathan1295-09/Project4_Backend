@@ -4,4 +4,4 @@ from rest_framework import serializers
 class PersonalBestSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = personalBest
-        fields =('id', 'cardio', 'Bench Press', 'Deadlift', 'Squat', 'Shoulder press')
+        fields =('id', 'Cardio', 'Benchpress', 'Deadlift', 'Squat', 'Shoulderpress')
